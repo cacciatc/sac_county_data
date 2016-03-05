@@ -1,5 +1,7 @@
 # SacCountyData
 
+[![Gem Version](https://badge.fury.io/rb/sac_county_data.svg)](https://badge.fury.io/rb/sac_county_data)
+
 A Ruby interface for the Sacramento County Open Data portal.
 
 ## Installation
