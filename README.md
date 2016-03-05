@@ -1,6 +1,6 @@
 # SacCountyData
 
-TODO: Write a gem description
+A Ruby interface for the Sacramento County Open Data portal.
 
 ## Installation
 
@@ -20,7 +20,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+After installation you will also need to request an API key from the [Sacramento County site](http://data.saccounty.net/developers/).
+
+```ruby
+require 'sac_county_data'
+
+SacCountyData.configure do |config|
+	config.api_key = '<YOUR API KEY>'
+end
+
+# returns an array of outstanding checks
+SacCountyData::OutstandingChecks.all
 
 ## Contributing
 
