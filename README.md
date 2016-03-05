@@ -35,7 +35,9 @@ SacCountyData::OutstandingChecks.all
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/sac_county_data/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Write tests
+4. Run rubocop -a
+5. Commit your changes (git commit -am 'Add some feature')
+6. Push to the branch (git push origin my-new-feature)
+7. Create a new Pull Request
