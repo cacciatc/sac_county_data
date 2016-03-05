@@ -10,12 +10,12 @@ module SacCountyData
 
       response = Faraday.get("#{API_URL}/#{RESOURCE_URL}/?auth_key=#{SacCountyData.api_key}")
       a = JSON.parse(response.body)['result']['fArray']
-      a.each_slice(8) do |s|
+      a[3..-1].each_slice(8) do |s|
         obj = {}
-        obj[:date]   = s[4]['fStr']
-        obj[:number] = s[5]['fStr']
-        obj[:amount] = s[6]['fStr']
-        obj[:name]   = s[7]['fStr']
+        obj[:date]   = s[0]['fStr']
+        obj[:number] = s[1]['fStr']
+        obj[:amount] = s[2]['fStr']
+        obj[:name]   = s[3]['fStr']
 
         objs.push OpenStruct.new obj
       end
