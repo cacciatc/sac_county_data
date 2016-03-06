@@ -40,6 +40,9 @@ SacCountyData::RestaurantInspections.all
 # returns an array of building permits
 SacCountyData::BuildingPermits.all
 
+## Notes
+As far as I can tell the API does not provide any pagination or query parameters. Also some resources such as building permits are only for 2015. This is because the Sac County currently has those broken up as different resources and other weirdness...
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/sac_county_data/fork )
