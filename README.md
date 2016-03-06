@@ -42,6 +42,9 @@ SacCountyData::BuildingPermits.all
 
 # returns an array of county contracts
 SacCountyData::CountyContracts.all
+
+# returns an array of process servers
+SacCountyData::ProcessServers.all
 ```
 
 ## Notes
