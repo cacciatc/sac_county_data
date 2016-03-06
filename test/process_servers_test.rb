@@ -12,11 +12,11 @@ describe 'SacCountyData::ProcessServers' do
   end
 
   it 'should return all process servers' do
-		VCR.use_cassette 'process_servers' do
-	    servers = SacCountyData::ProcessServers.all
-	    
-			assert servers.is_a? Array
-			assert servers.length == 208
-		end
+    VCR.use_cassette 'process_servers' do
+      servers = SacCountyData::ProcessServers.all
+
+      assert servers.is_a? Array
+      assert servers.length == 208
+    end
   end
 end

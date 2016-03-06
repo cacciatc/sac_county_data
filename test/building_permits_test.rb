@@ -12,11 +12,11 @@ describe 'SacCountyData::BuildingPermits' do
   end
 
   it 'should return all building permits' do
-		VCR.use_cassette 'building_permits' do
-    	permits = SacCountyData::BuildingPermits.all
+    VCR.use_cassette 'building_permits' do
+      permits = SacCountyData::BuildingPermits.all
 
-    	assert permits.is_a? Array
-			assert permits.length == 2474
-		end
+      assert permits.is_a? Array
+      assert permits.length == 2474
+    end
   end
 end

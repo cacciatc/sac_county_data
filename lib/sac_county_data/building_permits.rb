@@ -3,7 +3,7 @@ require 'json'
 require 'ostruct'
 
 module SacCountyData
-  class BuildingPermits 
+  class BuildingPermits
     RESOURCE_URL = 'ALL-PERMI-ISSUE-FOR-2015/data.json'.freeze
     def self.all
       objs = []

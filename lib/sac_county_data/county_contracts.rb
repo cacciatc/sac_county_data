@@ -12,8 +12,8 @@ module SacCountyData
       a = JSON.parse(response.body)['result']['fArray']
       a[8..-1].each_slice(8) do |s|
         obj = {}
-        obj[:contract_num]         = s[0]['fStr']
-        obj[:item_num] 		         = s[1]['fStr']
+        obj[:contract_num] = s[0]['fStr']
+        obj[:item_num] = s[1]['fStr']
         obj[:contract_type]        = s[2]['fStr']
         obj[:vendor_name]          = s[3]['fStr']
         obj[:contract_value]       = s[4]['fStr']
