@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['chris.cacciatore@gmail.com']
   spec.summary       = 'A Ruby interface for the Sac County Open Data portal.'
   spec.description   = ''
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/cacciatc/sac_county_data'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
