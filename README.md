@@ -52,7 +52,7 @@ As far as I can tell the API does not provide any pagination or query parameters
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/sac_county_data/fork )
+1. Fork it ( https://github.com/cacciatc/sac_county_data/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Write tests
 4. Run rubocop -a
