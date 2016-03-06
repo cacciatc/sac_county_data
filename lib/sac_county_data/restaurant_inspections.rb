@@ -9,7 +9,6 @@ module SacCountyData
       objs = []
 
       response = Faraday.get("#{API_URL}/#{RESOURCE_URL}/?auth_key=#{SacCountyData.api_key}")
-     	require 'pry';binding.pry 
 			a = JSON.parse(response.body)['result']['fArray']
       a[12..-1].each_slice(12) do |s|
         obj = {}

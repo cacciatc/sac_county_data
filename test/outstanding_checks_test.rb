@@ -12,8 +12,11 @@ describe 'SacCountyData::OutstandingChecks' do
   end
 
   it 'should return all outstanding checks' do
-    checks = SacCountyData::OutstandingChecks.all
-
-    assert checks.is_a? Array
+		VCR.use_cassette 'outstanding_checks' do
+	    checks = SacCountyData::OutstandingChecks.all
+	    
+			assert checks.is_a? Array
+			assert checks.length == 7017
+		end
   end
 end

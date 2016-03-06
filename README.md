@@ -34,6 +34,12 @@ end
 # returns an array of outstanding checks
 SacCountyData::OutstandingChecks.all
 
+# returns an array of restaurant inspections
+SacCountyData::RestaurantInspections.all
+
+# returns an array of building permits
+SacCountyData::BuildingPermits.all
+
 ## Contributing
 
 1. Fork it ( https://github.com/[my-github-username]/sac_county_data/fork )
