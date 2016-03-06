@@ -1,0 +1,464 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://saccounty.cloudapi.junar.com/api/v2/datastreams/PROCE-SERVE-LISTI/data.json/?auth_key=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Allow:
+      - GET, HEAD, OPTIONS
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 06 Mar 2016 19:49:25 GMT
+      Server:
+      - nginx/1.2.3
+      Vary:
+      - Accept, Accept-Encoding
+      X-Ua-Compatible:
+      - IE=edge
+      Content-Length:
+      - '6324'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: '{"result":{"fLength":209,"fType":"ARRAY","fTimestamp":1456861711339,"fArray":[{"fStr":"Reg
+        Nbr","fHeader":true,"fType":"TEXT"},{"fStr":"Type","fHeader":true,"fType":"TEXT"},{"fStr":"Name
+        of Registrant","fHeader":true,"fType":"TEXT"},{"fStr":"DBA (if applicable)","fHeader":true,"fType":"TEXT"},{"fStr":"Expiration
+        Date","fHeader":true,"fType":"TEXT"},{"fStr":"Telephone","fHeader":true,"fType":"TEXT"},{"fStr":"2015-59","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"AANERUD,
+        STEVE","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 23, 2017","fType":"TEXT"},{"fStr":"(916)
+        708-0320","fType":"TEXT"},{"fStr":"2009-98","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"ABEGGLEN,
+        JEFFREY W.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Dec 05, 2017","fType":"TEXT"},{"fStr":"(916)
+        320-6662","fType":"TEXT"},{"fStr":"2014-45","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"ADAMS,
+        JOHN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Oct 20, 2016","fType":"TEXT"},{"fStr":"(916)
+        719-9626","fType":"TEXT"},{"fStr":"2010-74","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"AGBOLI,
+        FIDELIS","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 09, 2016","fType":"TEXT"},{"fStr":"(916)
+        806-7583","fType":"TEXT"},{"fStr":"2014-28","fType":"TEXT"},{"fStr":"BUSINESS","fType":"TEXT"},{"fStr":"AGGRESSIVE
+        LEGAL SERVICES, INC.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul
+        24, 2016","fType":"TEXT"},{"fStr":"(916) 281-1694","fType":"TEXT"},{"fStr":"2012-32","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"AGNELL,
+        BRIAN T.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 27, 2016","fType":"TEXT"},{"fStr":"(916)
+        439-5576","fType":"TEXT"},{"fStr":"2012-50","fType":"TEXT"},{"fStr":"BUSINESS","fType":"TEXT"},{"fStr":"ANTONIO
+        FELIX, JR.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 17, 2016","fType":"TEXT"},{"fStr":"(916)
+        355-8796","fType":"TEXT"},{"fStr":"2015-39","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"ARNOLD,
+        JOHN E.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Mar 06, 2017","fType":"TEXT"},{"fStr":"(916)
+        446-2051","fType":"TEXT"},{"fStr":"2010-38","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"ATOIGUE,
+        BRIAN DAVID","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 10, 2016","fType":"TEXT"},{"fStr":"(916)
+        300-1332","fType":"TEXT"},{"fStr":"2015-35","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"BARBER,
+        STEPHANIE ANN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"May 20,
+        2017","fType":"TEXT"},{"fStr":"(916) 747-9843","fType":"TEXT"},{"fStr":"2008-59","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"BELK,
+        DEMARIO","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 14, 2016","fType":"TEXT"},{"fStr":"(916)
+        293-6783","fType":"TEXT"},{"fStr":"2015-48","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"BENNEFIELD,
+        BRUCE","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Aug 16, 2017","fType":"TEXT"},{"fStr":"(916)
+        292-0478","fType":"TEXT"},{"fStr":"2005-39","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"BONILLA,
+        JESSE","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Aug 31, 2017","fType":"TEXT"},{"fStr":"(209)
+        605-0767","fType":"TEXT"},{"fStr":"2015-57","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"BORUM,
+        ANGELA D.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 14, 2017","fType":"TEXT"},{"fStr":"(916)
+        544-2711","fType":"TEXT"},{"fStr":"2006-55","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"BOWLES,
+        BRIAN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 17, 2016","fType":"TEXT"},{"fStr":"(916)
+        348-7187","fType":"TEXT"},{"fStr":"2010-09","fType":"TEXT"},{"fStr":"BUSINESS","fType":"TEXT"},{"fStr":"BRICK
+        HOUSE VENTURES, LLC","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan
+        22, 2016","fType":"TEXT"},{"fStr":"(916) 919-7117","fType":"TEXT"},{"fStr":"2015-65","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"BRITTENUM,
+        CINQUE D.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Oct 15, 2017","fType":"TEXT"},{"fStr":"(916)
+        304-2467","fType":"TEXT"},{"fStr":"2015-01","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"BROWN,
+        LORI","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 04, 2017","fType":"TEXT"},{"fStr":"(916)
+        362-3553","fType":"TEXT"},{"fStr":"2014-27","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"BURTON,
+        STANLEY J.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 15, 2016","fType":"TEXT"},{"fStr":"(916)
+        471-8353","fType":"TEXT"},{"fStr":"2015-36","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"CALLIGANO,
+        SALLY","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 24, 2017","fType":"TEXT"},{"fStr":"(916)
+        849-2479","fType":"TEXT"},{"fStr":"2008-52","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"CARLSON,
+        R. D.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 23, 2016","fType":"TEXT"},{"fStr":"(916)
+        441-2805","fType":"TEXT"},{"fStr":"2015-08","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"CASTANEDA,
+        GRACE I.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 13, 2017","fType":"TEXT"},{"fStr":"(530)
+        313-8744","fType":"TEXT"},{"fStr":"2015-51","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"CAVARICCI,
+        KELLIE JEAN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Aug 13, 2017","fType":"TEXT"},{"fStr":"(800)
+        517-0231","fType":"TEXT"},{"fStr":"2014-57","fType":"TEXT"},{"fStr":"BUSINESS","fType":"TEXT"},{"fStr":"CECILIA
+        JIMENEZ","fType":"TEXT"},{"fStr":"MASTER DOCUMENT MANAGEMENT LLC","fType":"TEXT"},{"fStr":"Nov
+        30, 2016","fType":"TEXT"},{"fStr":"(916) 515-0462","fType":"TEXT"},{"fStr":"2014-41","fType":"TEXT"},{"fStr":"BUSINESS","fType":"TEXT"},{"fStr":"CEDENO,
+        LEIX","fType":"TEXT"},{"fStr":"COVERT SERVICES","fType":"TEXT"},{"fStr":"Sep
+        22, 2016","fType":"TEXT"},{"fStr":"(415) 837-8000","fType":"TEXT"},{"fStr":"2010-77","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"CENDEJAS,
+        ONESIMA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 04, 2016","fType":"TEXT"},{"fStr":"(916)
+        698-3697","fType":"TEXT"},{"fStr":"2014-54","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"CERVANTES,
+        NIKOL L.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Nov 25, 2016","fType":"TEXT"},{"fStr":"(916)
+        501-5578","fType":"TEXT"},{"fStr":"2014-56","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"CHAPMAN,
+        MARK J.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Dec 03, 2016","fType":"TEXT"},{"fStr":"(408)
+        768-0353","fType":"TEXT"},{"fStr":"2015-44","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"CHASUK,
+        REBECCA M.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 17, 2017","fType":"TEXT"},{"fStr":"(916)
+        834-9949","fType":"TEXT"},{"fStr":"2012-51","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"CHERING,
+        REBEKAH","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Oct 05, 2016","fType":"TEXT"},{"fStr":"(916)
+        362-3553","fType":"TEXT"},{"fStr":"2015-05","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"CHOW,
+        GREGORY M.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 21, 2017","fType":"TEXT"},{"fStr":"(916)
+        384-6448","fType":"TEXT"},{"fStr":"2014-52","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"COLLINS,
+        GLORIA J.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Nov 18, 2016","fType":"TEXT"},{"fStr":"(916)
+        470-0031","fType":"TEXT"},{"fStr":"2013-49","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"COON,
+        JOHN S.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Dec 21, 2017","fType":"TEXT"},{"fStr":"(916)
+        548-9191","fType":"TEXT"},{"fStr":"2015-06","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"CORNWELL,
+        ANDREW","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 22, 2017","fType":"TEXT"},{"fStr":"(916)
+        607-0845","fType":"TEXT"},{"fStr":"2014-07","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"CRAFT,
+        ARIELLE","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 15, 2016","fType":"TEXT"},{"fStr":"(916)
+        429-5558","fType":"TEXT"},{"fStr":"2012-49","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"CRANDALL,
+        ARDEN","fType":"TEXT"},{"fStr":"COPY PLUS","fType":"TEXT"},{"fStr":"Oct 02,
+        2016","fType":"TEXT"},{"fStr":"(916) 335-9530","fType":"TEXT"},{"fStr":"2014-48","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"CRAWFORD
+        JR., KERRY","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Nov 03, 2016","fType":"TEXT"},{"fStr":"(916)
+        912-3959","fType":"TEXT"},{"fStr":"2014-47","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"CRISOSTOMO
+        SR., LARRY T.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Oct 30,
+        2016","fType":"TEXT"},{"fStr":"(916) 320-9221","fType":"TEXT"},{"fStr":"2015-56","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"CUNNINGHAM,
+        BOYCE","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 08, 2017","fType":"TEXT"},{"fStr":"(916)
+        289-3194","fType":"TEXT"},{"fStr":"2014-31","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"CURTIS,
+        KINGDON","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 28, 2016","fType":"TEXT"},{"fStr":"(916)
+        862-6671","fType":"TEXT"},{"fStr":"2012-56","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"DALTON,
+        BOBBY","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Oct 24, 2016","fType":"TEXT"},{"fStr":"(323)
+        599-0076","fType":"TEXT"},{"fStr":"2014-12","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"DAVI,
+        RAMONA R.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"May 19, 2016","fType":"TEXT"},{"fStr":"(510)
+        541-2390","fType":"TEXT"},{"fStr":"2014-38","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"DAVIS,
+        LEON JR.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 11, 2016","fType":"TEXT"},{"fStr":"(916)
+        553-7817","fType":"TEXT"},{"fStr":"2008-47","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"DEJOSE,
+        JERMAINE","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"May 29, 2016","fType":"TEXT"},{"fStr":"(925)
+        848-5220","fType":"TEXT"},{"fStr":"2015-12","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"DELANY,
+        TIMOTHY","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb 03, 2017","fType":"TEXT"},{"fStr":"(916)
+        801-8463","fType":"TEXT"},{"fStr":"2014-08","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"DELSO,
+        GEORGE","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 15, 2016","fType":"TEXT"},{"fStr":"(916)
+        420-8586","fType":"TEXT"},{"fStr":"2011-03","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"DENHAM,
+        ALVIN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 24, 2017","fType":"TEXT"},{"fStr":"(916)
+        601-8056","fType":"TEXT"},{"fStr":"2006-06","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"DIMARIA,
+        TYLER A.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb 12, 2016","fType":"TEXT"},{"fStr":"(916)
+        271-6096","fType":"TEXT"},{"fStr":"2014-35","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"DITRI,
+        JOSHUA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 03, 2016","fType":"TEXT"},{"fStr":"(916)
+        446-4890","fType":"TEXT"},{"fStr":"2011-42","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"DODD,
+        MICHELLE E.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 24, 2017","fType":"TEXT"},{"fStr":"(916)
+        470-6693","fType":"TEXT"},{"fStr":"2015-58","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"DUANE,
+        RUSSELL","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 17, 2017","fType":"TEXT"},{"fStr":"(916)
+        223-5110","fType":"TEXT"},{"fStr":"2014-25","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"ELLIOTT,
+        ROBERT HUDSON","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 16,
+        2016","fType":"TEXT"},{"fStr":"(916) 214-2842","fType":"TEXT"},{"fStr":"2014-09","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"ENDERWITZ,
+        TOM","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 13, 2016","fType":"TEXT"},{"fStr":"(209)
+        570-1849","fType":"TEXT"},{"fStr":"2010-104","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"FIELDS,
+        ROBERT H.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Dec 07, 2016","fType":"TEXT"},{"fStr":"(916)
+        397-2110","fType":"TEXT"},{"fStr":"2015-11","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"FILIPPOV,
+        DANIEL O.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb 02, 2017","fType":"TEXT"},{"fStr":"(916)
+        504-6307","fType":"TEXT"},{"fStr":"2008-21","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"FRIEDMAN,
+        CATHY","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb 27, 2016","fType":"TEXT"},{"fStr":"(916)
+        334-3489","fType":"TEXT"},{"fStr":"2015-14","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"GALVAN,
+        PATRICIA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb 05, 2017","fType":"TEXT"},{"fStr":"(916)
+        996-8855","fType":"TEXT"},{"fStr":"2015-61","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"GARCIA,
+        HENRY L.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Oct 03, 2017","fType":"TEXT"},{"fStr":"(916)
+        803-2847","fType":"TEXT"},{"fStr":"2015-27","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"GARCIA,
+        JOSIE","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 15, 2017","fType":"TEXT"},{"fStr":"(916)
+        914-5543","fType":"TEXT"},{"fStr":"2012-36","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"GENTILE,
+        PETER J. JR.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 10,
+        2016","fType":"TEXT"},{"fStr":"(916) 955-5952","fType":"TEXT"},{"fStr":"1996-09","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"GILBERT,
+        ANDREW F.X.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb 13, 2016","fType":"TEXT"},{"fStr":"(916)
+        329-8630","fType":"TEXT"},{"fStr":"2015-55","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"GILL,
+        JAGJIWAN SINGH","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 07,
+        2017","fType":"TEXT"},{"fStr":"(415) 368-7270","fType":"TEXT"},{"fStr":"2013-17","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"GILLIAM,
+        CHRISTOPHER","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 01, 2017","fType":"TEXT"},{"fStr":"(916)
+        546-0912","fType":"TEXT"},{"fStr":"2013-44","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"GLAESER,
+        STEPHEN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Nov 05, 2017","fType":"TEXT"},{"fStr":"(916)
+        224-1630","fType":"TEXT"},{"fStr":"2011-65","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"GLAZE,
+        JEREMY","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Dec 01, 2017","fType":"TEXT"},{"fStr":"(916)
+        286-9463","fType":"TEXT"},{"fStr":"2015-52","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"GOODMAN,
+        BRITTANY A.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Aug 27, 2017","fType":"TEXT"},{"fStr":"(916)
+        430-0696","fType":"TEXT"},{"fStr":"1992-07","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"GREENHALGH,
+        GARI","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Nov 10, 2017","fType":"TEXT"},{"fStr":"(916)
+        541-4034","fType":"TEXT"},{"fStr":"2015-33","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"GUTIERREZ,
+        JOSEPH RYAN DON","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 03,
+        2017","fType":"TEXT"},{"fStr":"(916) 591-4243","fType":"TEXT"},{"fStr":"2014-01","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"HALL,
+        KELLY W.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 15, 2016","fType":"TEXT"},{"fStr":"(916)
+        549-8181","fType":"TEXT"},{"fStr":"2009-12","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"HAMMOND,
+        BRUCE","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 31, 2017","fType":"TEXT"},{"fStr":"(916)
+        835-7742","fType":"TEXT"},{"fStr":"2013-06","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"HARRIS,
+        KIRBY SHAMTTORRICA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb
+        26, 2017","fType":"TEXT"},{"fStr":"(916) 873-6379","fType":"TEXT"},{"fStr":"2010-10","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"HARVEGO,
+        DEBORAH","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 22, 2016","fType":"TEXT"},{"fStr":"(916)
+        919-7117","fType":"TEXT"},{"fStr":"2015-22","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"HAWKINS,
+        PAMELA JO ANN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Mar 07,
+        2017","fType":"TEXT"},{"fStr":"(916) 974-7855","fType":"TEXT"},{"fStr":"2004-41","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"HENDERSON,
+        TIM","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 10, 2016","fType":"TEXT"},{"fStr":"(916)
+        689-0401","fType":"TEXT"},{"fStr":"2013-27","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"HENDRIX,
+        BAKARI","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 01, 2017","fType":"TEXT"},{"fStr":"(707)
+        495-5907","fType":"TEXT"},{"fStr":"2007-78","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"HILLIARD,
+        CHARLES W.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Dec 14, 2017","fType":"TEXT"},{"fStr":"(916)
+        472-6470","fType":"TEXT"},{"fStr":"2009-33","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"HINK,
+        KERRY S.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 24, 2017","fType":"TEXT"},{"fStr":"(916)
+        425-3053","fType":"TEXT"},{"fStr":"2013-23","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"HOLMES,
+        CHRIS","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 02, 2017","fType":"TEXT"},{"fStr":"(916)
+        362-3553","fType":"TEXT"},{"fStr":"2015-31","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"HUFF,
+        JESSICA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 16, 2017","fType":"TEXT"},{"fStr":"(916)
+        453-2860","fType":"TEXT"},{"fStr":"2015-09","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"INGLAND,
+        STEVEN JR.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 29, 2017","fType":"TEXT"},{"fStr":"(916)
+        709-1386","fType":"TEXT"},{"fStr":"2014-43","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"JAVED,
+        FIAZ","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 21, 2016","fType":"TEXT"},{"fStr":"(916)
+        425-8790","fType":"TEXT"},{"fStr":"2014-15","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"JIMENEZ,
+        ATHENNA ALLYSIA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"May 20,
+        2016","fType":"TEXT"},{"fStr":"(916) 647-1010","fType":"TEXT"},{"fStr":"2014-40","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"JOHNSON,
+        BRIAN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 15, 2016","fType":"TEXT"},{"fStr":"(530)
+        417-3645","fType":"TEXT"},{"fStr":"2005-42","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"KANGAS,
+        ROSS","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 15, 2017","fType":"TEXT"},{"fStr":"(916)
+        967-0566","fType":"TEXT"},{"fStr":"2014-26","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"KELLY,
+        AMBER R.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 22, 2016","fType":"TEXT"},{"fStr":"(916)
+        412-8963","fType":"TEXT"},{"fStr":"2015-19","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"KING,
+        JEFFERY L.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Mar 11, 2017","fType":"TEXT"},{"fStr":"(916)
+        671-2174","fType":"TEXT"},{"fStr":"2014-19","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"KIRTLEY,
+        GEORGE N.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 19, 2016","fType":"TEXT"},{"fStr":"(916)
+        481-7661","fType":"TEXT"},{"fStr":"2014-22","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"KOWALSKI,
+        JOHN DANIEL","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 03, 2016","fType":"TEXT"},{"fStr":"(916)
+        714-7812","fType":"TEXT"},{"fStr":"2011-45","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"LABRADO,
+        DAVID J. JR.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Aug 20,
+        2017","fType":"TEXT"},{"fStr":"(916) 969-3001","fType":"TEXT"},{"fStr":"2011-23","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"LAGUNAS,
+        KAYL J.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"May 02, 2017","fType":"TEXT"},{"fStr":"(916)
+        879-0088","fType":"TEXT"},{"fStr":"2015-60","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"LAGUNAS,
+        MARK ERIC JR.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 21,
+        2017","fType":"TEXT"},{"fStr":"(916) 317-4347","fType":"TEXT"},{"fStr":"2014-23","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"LANGE,
+        THOMAS J.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 20, 2016","fType":"TEXT"},{"fStr":"(916)
+        455-4588","fType":"TEXT"},{"fStr":"2014-46","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"LECLAIRE,
+        WAYNE WILLIAM","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Oct 22,
+        2016","fType":"TEXT"},{"fStr":"(916) 541-9105","fType":"TEXT"},{"fStr":"2014-16","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"LEE,
+        JOHN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 05, 2016","fType":"TEXT"},{"fStr":"(916)
+        873-3147","fType":"TEXT"},{"fStr":"2014-36","fType":"TEXT"},{"fStr":"BUSINESS","fType":"TEXT"},{"fStr":"LEGALESE
+        ATTORNEY SERVICE, INC.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep
+        08, 2016","fType":"TEXT"},{"fStr":"(916) 457-0750","fType":"TEXT"},{"fStr":"2009-18","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"LEONARDO,
+        MATTHEW","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb 18, 2017","fType":"TEXT"},{"fStr":"(916)
+        459-5565","fType":"TEXT"},{"fStr":"2010-51","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"LEWIS,
+        WENDELL","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 10, 2016","fType":"TEXT"},{"fStr":"(916)
+        752-3869","fType":"TEXT"},{"fStr":"2015-50","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"LEZAMA,
+        ANGELICA RODRIGUEZ","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Aug
+        10, 2017","fType":"TEXT"},{"fStr":"(916) 821-1800","fType":"TEXT"},{"fStr":"2014-30","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"LOPEZ,
+        CATHY LYNN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 31, 2016","fType":"TEXT"},{"fStr":"(916)
+        539-2956","fType":"TEXT"},{"fStr":"2010-97","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"LORAY-MAJOR,
+        CHERI","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Nov 28, 2016","fType":"TEXT"},{"fStr":"(916)
+        532-9440","fType":"TEXT"},{"fStr":"2002-23","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"LUND,
+        JASON","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 27, 2016","fType":"TEXT"},{"fStr":"(916)
+        647-1004","fType":"TEXT"},{"fStr":"2012-18","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"LYTLE,
+        JORDAN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 24, 2016","fType":"TEXT"},{"fStr":"(916)
+        509-1964","fType":"TEXT"},{"fStr":"2007-31","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"MACDONALD,
+        MARGARET","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 29, 2017","fType":"TEXT"},{"fStr":"(916)
+        443-3939","fType":"TEXT"},{"fStr":"2014-14","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"MANNING,
+        BRIANA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"May 26, 2016","fType":"TEXT"},{"fStr":"(916)
+        667-3610","fType":"TEXT"},{"fStr":"2015-64","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"MARINO,
+        SAM LAAULIPAPALII","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Oct
+        06, 2017","fType":"TEXT"},{"fStr":"(515) 771-8458","fType":"TEXT"},{"fStr":"1998-61","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"MARSHALL,
+        JASON","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 27, 2016","fType":"TEXT"},{"fStr":"(916)
+        505-7773","fType":"TEXT"},{"fStr":"2014-11","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"MARTIN,
+        CHRISITNE","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"May 09, 2016","fType":"TEXT"},{"fStr":"(916)
+        476-7556","fType":"TEXT"},{"fStr":"2010-29","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"MARTINEZ,
+        ALPHONSO M.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 17, 2016","fType":"TEXT"},{"fStr":"(916)
+        768-3788","fType":"TEXT"},{"fStr":"2014-04","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"MATA,
+        HILLARIO GABRIEL","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb
+        11, 2016","fType":"TEXT"},{"fStr":"(916) 534-5758","fType":"TEXT"},{"fStr":"2014-42","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"MCAMIS,
+        PAUL A.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 23, 2016","fType":"TEXT"},{"fStr":"(916)
+        205-1053","fType":"TEXT"},{"fStr":"2014-44","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"MCCLUNG,
+        JORDAN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Oct 06, 2016","fType":"TEXT"},{"fStr":"(877)
+        925-7462","fType":"TEXT"},{"fStr":"2014-55","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"MCINTYRE,
+        BIANCA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Nov 17, 2016","fType":"TEXT"},{"fStr":"(916)
+        706-4323","fType":"TEXT"},{"fStr":"2015-37","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"MELIS,
+        ELIZABETH ANN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 21,
+        2017","fType":"TEXT"},{"fStr":"(916) 564-4911","fType":"TEXT"},{"fStr":"2000-63","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"MEYER,
+        ERIC J.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Oct 12, 2016","fType":"TEXT"},{"fStr":"(916)
+        849-0590","fType":"TEXT"},{"fStr":"2014-33","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"MILLER,
+        NICOLE ERIN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Aug 14, 2016","fType":"TEXT"},{"fStr":"(916)
+        342-2918","fType":"TEXT"},{"fStr":"2015-38","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"MOORE,
+        KRISTIN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 24, 2017","fType":"TEXT"},{"fStr":"(916)
+        346-2416","fType":"TEXT"},{"fStr":"2005-02","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"MOREHEAD,
+        MICHAEL (MIKE)","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 24,
+        2016","fType":"TEXT"},{"fStr":"(916) 955-6523","fType":"TEXT"},{"fStr":"2012-33","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"MORRIS,
+        MICHAEL A.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 01, 2016","fType":"TEXT"},{"fStr":"(916)
+        444-5111","fType":"TEXT"},{"fStr":"2015-17","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"MURPHY,
+        MICHAEL JOHN JR.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Mar
+        10, 2017","fType":"TEXT"},{"fStr":"(916) 914-3344","fType":"TEXT"},{"fStr":"2015-42","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"NICOLAI,
+        MARY","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 10, 2017","fType":"TEXT"},{"fStr":"(916)
+        459-5501","fType":"TEXT"},{"fStr":"2015-03","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"OAKLEY,
+        LARRY D.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 14, 2017","fType":"TEXT"},{"fStr":"(916)
+        801-8977","fType":"TEXT"},{"fStr":"2014-50","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"ODER,
+        WILLIAM E.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Nov 11, 2016","fType":"TEXT"},{"fStr":"(916)
+        204-6337","fType":"TEXT"},{"fStr":"2008-01","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"OHTA,
+        SABINA M.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 06, 2018","fType":"TEXT"},{"fStr":"(707)
+        653-6482","fType":"TEXT"},{"fStr":"1993-27","fType":"TEXT"},{"fStr":"BUSINESS","fType":"TEXT"},{"fStr":"OLIVAS,
+        PHIL","fType":"TEXT"},{"fStr":"C&P LEGAL SERVICE","fType":"TEXT"},{"fStr":"Jun
+        02, 2017","fType":"TEXT"},{"fStr":"(916) 482-9720","fType":"TEXT"},{"fStr":"2011-43","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"OLIVER,
+        SCOTT","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 18, 2017","fType":"TEXT"},{"fStr":"(916)
+        856-7180","fType":"TEXT"},{"fStr":"2012-37","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"ORTIZ,
+        BRANDON","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 11, 2016","fType":"TEXT"},{"fStr":"(916)
+        293-6492","fType":"TEXT"},{"fStr":"2006-58","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"PENNEL,
+        JEFF","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 26, 2016","fType":"TEXT"},{"fStr":"(916)
+        870-6690","fType":"TEXT"},{"fStr":"2015-49","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"PEREZ,
+        ANGEL","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Aug 23, 2017","fType":"TEXT"},{"fStr":"(916)
+        290-2313","fType":"TEXT"},{"fStr":"2014-39","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"PIAN,
+        ANNA STACY","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 11, 2016","fType":"TEXT"},{"fStr":"(916)
+        340-5977","fType":"TEXT"},{"fStr":"2012-09","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"PRICE,
+        NAKITA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb 24, 2016","fType":"TEXT"},{"fStr":"(916)
+        256-9095","fType":"TEXT"},{"fStr":"2012-43","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"PUGH,
+        JOHN J.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Aug 01, 2016","fType":"TEXT"},{"fStr":"(916)
+        444-4512","fType":"TEXT"},{"fStr":"2014-13","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"RAKHAMI,
+        ABDERAHIM","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"May 19, 2016","fType":"TEXT"},{"fStr":"(916)
+        678-2773","fType":"TEXT"},{"fStr":"2015-20","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"RASTEKHIZ,
+        BABAK","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 29, 2017","fType":"TEXT"},{"fStr":"(916)
+        533-4304","fType":"TEXT"},{"fStr":"2000-09","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"REINHART,
+        KAY","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 24, 2016","fType":"TEXT"},{"fStr":"(916)
+        804-7099","fType":"TEXT"},{"fStr":"2015-26","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"REYNOLDS,
+        ANDREA MARIA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Mar 08,
+        2017","fType":"TEXT"},{"fStr":"(916) 583-4791","fType":"TEXT"},{"fStr":"2010-103","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"RICH,
+        PERDEA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Dec 03, 2016","fType":"TEXT"},{"fStr":"(916)
+        710-6070","fType":"TEXT"},{"fStr":"2015-43","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"RICHARDS,
+        LORRAINE","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 12, 2017","fType":"TEXT"},{"fStr":"(916)
+        475-9919","fType":"TEXT"},{"fStr":"2014-03","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"RIPPY,
+        DEANN L.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb 03, 2016","fType":"TEXT"},{"fStr":"(916)
+        667-3610","fType":"TEXT"},{"fStr":"2015-40","fType":"TEXT"},{"fStr":"BUSINESS","fType":"TEXT"},{"fStr":"RIVER
+        CITY PROCESS SERVICE, INC.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Mar
+        06, 2017","fType":"TEXT"},{"fStr":"(916) 446-2051","fType":"TEXT"},{"fStr":"2015-28","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"RIVIERA,
+        THERESA C.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb 14, 2016","fType":"TEXT"},{"fStr":"(916)
+        201-1236","fType":"TEXT"},{"fStr":"2009-82","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"ROBINSON,
+        GUY","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 06, 2017","fType":"TEXT"},{"fStr":"(916)
+        599-8117","fType":"TEXT"},{"fStr":"2014-32","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"ROSE,
+        DEBRA M.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Aug 11, 2016","fType":"TEXT"},{"fStr":"(916)
+        455-4332","fType":"TEXT"},{"fStr":"2011-66","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"ROSS,
+        DEMIAN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Dec 11, 2017","fType":"TEXT"},{"fStr":"(916)
+        373-9065","fType":"TEXT"},{"fStr":"1998-02","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"ROSSNER,
+        JENICE","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 03, 2018","fType":"TEXT"},{"fStr":"(916)
+        806-3299","fType":"TEXT"},{"fStr":"2010-28","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"RUBIO,
+        ROBERT","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 27, 2016","fType":"TEXT"},{"fStr":"(916)
+        849-7785","fType":"TEXT"},{"fStr":"2015-63","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SAELEE,
+        BRIAN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Oct 09, 2017","fType":"TEXT"},{"fStr":"(916)
+        806-2198","fType":"TEXT"},{"fStr":"2012-45","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SANCHEZ,
+        CHASTITY","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 03, 2016","fType":"TEXT"},{"fStr":"(916)
+        613-9840","fType":"TEXT"},{"fStr":"2008-05","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SARDIA,
+        SHAWN F.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Dec 01, 2017","fType":"TEXT"},{"fStr":"(916)
+        519-5333","fType":"TEXT"},{"fStr":"2015-54","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SARINANA,
+        MOSES","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Aug 31, 2017","fType":"TEXT"},{"fStr":"(209)
+        495-6970","fType":"TEXT"},{"fStr":"2014-05","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SAVAGE,
+        JOHN LEE JR.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb 20,
+        2016","fType":"TEXT"},{"fStr":"(916) 877-0728","fType":"TEXT"},{"fStr":"2014-37","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SCHOOF,
+        PAMELA G.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 26, 2016","fType":"TEXT"},{"fStr":"(916)
+        418-4589","fType":"TEXT"},{"fStr":"2015-62","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SCOTT,
+        RANDI L.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Mar 08, 2017","fType":"TEXT"},{"fStr":"(916)
+        825-0266","fType":"TEXT"},{"fStr":"2014-17","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SEWALD,
+        JACOB B.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"May 28, 2016","fType":"TEXT"},{"fStr":"(916)
+        862-8568","fType":"TEXT"},{"fStr":"2010-88","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SHADA,
+        SHERRY L.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Oct 18, 2016","fType":"TEXT"},{"fStr":"(916)
+        627-9783","fType":"TEXT"},{"fStr":"2015-24","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SHANAHAN,
+        VIRGINIA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Mar 31, 2017","fType":"TEXT"},{"fStr":"(916)
+        361-3856","fType":"TEXT"},{"fStr":"1998-80","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SHARP,
+        RON","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Oct 03, 2016","fType":"TEXT"},{"fStr":"(916)
+        434-5140","fType":"TEXT"},{"fStr":"2008-10","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SHISLER,
+        JONATHAN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb 04, 2016","fType":"TEXT"},{"fStr":"(559)
+        940-3757","fType":"TEXT"},{"fStr":"2015-23","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SIDLEY,
+        JUSTIN ROBERT","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Mar 27,
+        2017","fType":"TEXT"},{"fStr":"(916) 505-8734","fType":"TEXT"},{"fStr":"2015-07","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SIMON,
+        ALISHIA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 13, 2017","fType":"TEXT"},{"fStr":"(916)
+        716-5169","fType":"TEXT"},{"fStr":"2014-34","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SIMS,
+        VERNARD LUNJE SANTANA JR.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Aug
+        17, 2016","fType":"TEXT"},{"fStr":"(916) 344-0446","fType":"TEXT"},{"fStr":"2013-47","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SINGH,
+        DANIEL S.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Dec 04, 2017","fType":"TEXT"},{"fStr":"(916)
+        333-4665","fType":"TEXT"},{"fStr":"2014-06","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SINGH,
+        JASHUA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Mar 11, 2016","fType":"TEXT"},{"fStr":"(916)
+        361-3259","fType":"TEXT"},{"fStr":"2000-02","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SINGH,
+        MIKE","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 04, 2018","fType":"TEXT"},{"fStr":"(916)
+        449-8990","fType":"TEXT"},{"fStr":"2006-27","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SKOG,
+        PETER OTTO","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 25, 2016","fType":"TEXT"},{"fStr":"(916)
+        777-5813","fType":"TEXT"},{"fStr":"2014-20","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SMITH,
+        RACHEL","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"May 15, 2016","fType":"TEXT"},{"fStr":"(916)
+        333-8935","fType":"TEXT"},{"fStr":"2009-55","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SMOTHERS,
+        LLOYD","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 17, 2017","fType":"TEXT"},{"fStr":"(916)
+        721-8967","fType":"TEXT"},{"fStr":"2005-55","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SNELL,
+        RICHARD","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Dec 28, 2017","fType":"TEXT"},{"fStr":"(916)
+        638-4750","fType":"TEXT"},{"fStr":"2015-45","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SOUTHARD,
+        ANDREW JAMES","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 20,
+        2017","fType":"TEXT"},{"fStr":"(916) 293-6140","fType":"TEXT"},{"fStr":"2015-53","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SOUZA,
+        KRYSTALYN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Aug 30, 2017","fType":"TEXT"},{"fStr":"(916)
+        267-7340","fType":"TEXT"},{"fStr":"1992-15","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"STERN,
+        G.K","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 07, 2016","fType":"TEXT"},{"fStr":"(916)
+        967-4196","fType":"TEXT"},{"fStr":"2015-04","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"STRALEN,
+        RYAN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 20, 2017","fType":"TEXT"},{"fStr":"(916)
+        947-0446","fType":"TEXT"},{"fStr":"2015-32","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"SUPINGER,
+        JACK","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"May 15, 2017","fType":"TEXT"},{"fStr":"(916)
+        595-2743","fType":"TEXT"},{"fStr":"2015-30","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"TALLEY,
+        KINDRA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"May 20, 2017","fType":"TEXT"},{"fStr":"(916)
+        872-0464","fType":"TEXT"},{"fStr":"2015-15","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"TERRILL,
+        GERALD E. JR.","fType":"TEXT"},{"fStr":"LEGAL PRO RESOURCE","fType":"TEXT"},{"fStr":"Feb
+        17, 2017","fType":"TEXT"},{"fStr":"(916) 667-3610","fType":"TEXT"},{"fStr":"2015-41","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"THOMAS,
+        JAMES","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 05, 2017","fType":"TEXT"},{"fStr":"(916)
+        691-4109","fType":"TEXT"},{"fStr":"2014-53","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"THOMPSON,
+        MICHAEL","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Nov 23, 2016","fType":"TEXT"},{"fStr":"(916)
+        216-5593","fType":"TEXT"},{"fStr":"1996-01","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"THOMPSON,
+        MICHAEL J.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Dec 03, 2017","fType":"TEXT"},{"fStr":"(916)
+        532-6180","fType":"TEXT"},{"fStr":"2000-68","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"TOTH,
+        ROBERT","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Nov 08, 2016","fType":"TEXT"},{"fStr":"(916)
+        342-3579","fType":"TEXT"},{"fStr":"2015-29","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"TOWNSEND,
+        GERALD H.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"May 04, 2017","fType":"TEXT"},{"fStr":"(916)
+        769-1309","fType":"TEXT"},{"fStr":"2015-47","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"TREADWAY,
+        EPHRAIM","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Aug 07, 2017","fType":"TEXT"},{"fStr":"(916)
+        661-9582","fType":"TEXT"},{"fStr":"2014-21","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"TREJO-LEMUS,
+        MAYELA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 12, 2016","fType":"TEXT"},{"fStr":"(916)
+        604-1183","fType":"TEXT"},{"fStr":"2014-49","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"URIBE,
+        GEORGE A.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Oct 27, 2016","fType":"TEXT"},{"fStr":"(831)
+        801-7986","fType":"TEXT"},{"fStr":"2014-51","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"VACHER,
+        ROBERT K.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Nov 16, 2016","fType":"TEXT"},{"fStr":"(916)
+        987-8643","fType":"TEXT"},{"fStr":"2012-63","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"VALENTIN,
+        SUSIE L.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Dec 11, 2016","fType":"TEXT"},{"fStr":"(530)
+        644-6850","fType":"TEXT"},{"fStr":"2015-16","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"VAN
+        HOOSER, MICHAEL","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb 23,
+        2017","fType":"TEXT"},{"fStr":"(916) 812-1301","fType":"TEXT"},{"fStr":"2014-02","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"VAN
+        HULTEN, ADAM","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb 05,
+        2016","fType":"TEXT"},{"fStr":"(916) 879-5728","fType":"TEXT"},{"fStr":"2007-56","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"VELASCO,
+        ALFONSO","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 15, 2017","fType":"TEXT"},{"fStr":"(209)
+        604-5704","fType":"TEXT"},{"fStr":"2010-68","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"VELASCO,
+        FERNANDO","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Aug 24, 2016","fType":"TEXT"},{"fStr":"(209)
+        423-0900","fType":"TEXT"},{"fStr":"2014-18","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"VELASCO,
+        LISSETTE","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 16, 2016","fType":"TEXT"},{"fStr":"(530)
+        415-8066","fType":"TEXT"},{"fStr":"2015-25","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"VOGELSANG,
+        NYLA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Dec 08, 2016","fType":"TEXT"},{"fStr":"(916)
+        947-8297","fType":"TEXT"},{"fStr":"2015-21","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"WAHL,
+        SCOTT D.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Mar 23, 2017","fType":"TEXT"},{"fStr":"(916)
+        330-9129","fType":"TEXT"},{"fStr":"2010-04","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"WALTON,
+        LATRINA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 12, 2018","fType":"TEXT"},{"fStr":"(916)
+        996-4363","fType":"TEXT"},{"fStr":"2015-13","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"WALTON,
+        RANDALL","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb 10, 2017","fType":"TEXT"},{"fStr":"(916)
+        996-4311","fType":"TEXT"},{"fStr":"1987-10","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"WARDLOW,
+        JAMES H.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 01, 2017","fType":"TEXT"},{"fStr":"(916)
+        974-7421","fType":"TEXT"},{"fStr":"2007-60","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"WATSON,
+        MICHAEL C.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Oct 04, 2017","fType":"TEXT"},{"fStr":"(916)
+        635-0978","fType":"TEXT"},{"fStr":"2014-10","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"WELK,
+        KEITH","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 23, 2016","fType":"TEXT"},{"fStr":"(916)
+        247-2419","fType":"TEXT"},{"fStr":"2015-34","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"WHELESS,
+        CHRISTOPHER","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"May 27, 2017","fType":"TEXT"},{"fStr":"(916)
+        519-0433","fType":"TEXT"},{"fStr":"2014-29","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"WHITE,
+        SAMUEL D.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jun 11, 2016","fType":"TEXT"},{"fStr":"(916)
+        317-5050","fType":"TEXT"},{"fStr":"2015-46","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"WHITE,
+        STACY J.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 31, 2017","fType":"TEXT"},{"fStr":"(916)
+        595-1114","fType":"TEXT"},{"fStr":"2010-11","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"WILKINSON,
+        JOHN","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 22, 2016","fType":"TEXT"},{"fStr":"(916)
+        486-4141","fType":"TEXT"},{"fStr":"2013-39","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"WILLIAMS,
+        DELISSA M.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Sep 24, 2017","fType":"TEXT"},{"fStr":"(916)
+        504-1696","fType":"TEXT"},{"fStr":"2015-10","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"WILLIAMS,
+        KATRINA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 29, 2017","fType":"TEXT"},{"fStr":"(916)
+        706-8892","fType":"TEXT"},{"fStr":"2006-28","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"WILLIAMSON,
+        JILL E.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 24, 2016","fType":"TEXT"},{"fStr":"(916)
+        919-2963","fType":"TEXT"},{"fStr":"2014-24","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"WILLOVER,
+        PAMELA","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jul 10, 2016","fType":"TEXT"},{"fStr":"(530)
+        559-9432","fType":"TEXT"},{"fStr":"2015-02","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"WOOD,
+        PHILIP","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Jan 12, 2017","fType":"TEXT"},{"fStr":"(916)
+        377-2719","fType":"TEXT"},{"fStr":"2008-34","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"XICOTENCATL,
+        SHIRLENE","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Apr 08, 2016","fType":"TEXT"},{"fStr":"(916)
+        422-3616","fType":"TEXT"},{"fStr":"1999-86","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"XIOCOTENCATL,
+        CARLTON","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Dec 15, 2017","fType":"TEXT"},{"fStr":"(916)
+        422-3616","fType":"TEXT"},{"fStr":"2015-18","fType":"TEXT"},{"fStr":"INDIVIDUAL","fType":"TEXT"},{"fStr":"ZAK,
+        RAYMOND E.","fType":"TEXT"},{"fStr":"","fType":"TEXT"},{"fStr":"Feb 27, 2017","fType":"TEXT"},{"fStr":"(916)
+        410-5921","fType":"TEXT"}],"fRows":209,"fCols":6},"endpoint":"file://1395/5695/b40c1b63-4a35-48a5-8ef7-36314c820dac","description":"Registered
+        process servers in Sacramento County","parameters":[],"tags":[],"created_at":"2016-01-15T14:46:53","title":"Process
+        Server Listing","link":null,"user":"saccounty","guid":"PROCE-SERVE-LISTI","category_name":"County
+        Services"}'
+    http_version: 
+  recorded_at: Sun, 06 Mar 2016 19:46:54 GMT
+recorded_with: VCR 2.9.3
